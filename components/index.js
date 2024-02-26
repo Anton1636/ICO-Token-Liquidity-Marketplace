@@ -15,7 +15,7 @@ import SuccessPool from './SuccessPool'
 import NoPool from './NoPool'
 import Loader from './Loader'
 import HeaderIcon from './SVG/HeaderIcon'
-import FooterIcon from './SVG/FooterIcon'
+import footerIcon from './SVG/FooterIcon'
 
 export {
 	Header,
@@ -35,5 +35,5 @@ export {
 	Input,
 	PoolInput,
 	HeaderIcon,
-	FooterIcon,
+	footerIcon,
 }

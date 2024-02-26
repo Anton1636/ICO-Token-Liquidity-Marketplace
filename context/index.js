@@ -107,6 +107,7 @@ export const CONTEXT_Provider = ({ children }) => {
 
 			if (poolAddress == zeroAdd) {
 				notifySuccess('Sorry there is no pool')
+				setLoader(false)
 			} else {
 				let poolArray = []
 				const poolLists = localStorage.getItem('poolHistory')
